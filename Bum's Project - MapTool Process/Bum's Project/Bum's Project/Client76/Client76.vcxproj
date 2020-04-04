@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59A6D0BE-C578-4E5D-8616-91AE7D23EDE4}</ProjectGuid>
+    <RootNamespace>Client76</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x86;C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\AStar.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BlueWolf.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Boss.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossBullet.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossStage.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Bridge.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CollisionMgr.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CreedWizard.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Critical.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Cursor.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Damage.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DarkCow.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DataSubject.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Effect.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBridge.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectFactory.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Equip.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Field.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame_Manager.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\House.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\HpBar.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Item.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NPC.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Portal.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Shop.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\SoundMgr.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Status.cpp" />
+    <ClCompile Include="Inven.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Jelly.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MonHpBar.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Monster.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MpBar.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NormEffect.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Observer.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RedWolf.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RenderMgr.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\ShakeMgr.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy2.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Store.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Subject.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Test.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tile.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer_Manager.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town2.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tree.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UIObserver.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UserInterface.cpp" />
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Weapon.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Client76.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MultiTexture.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="SingleTexture.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureMgr.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\AStar.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BlueWolf.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Boss.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossBullet.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossStage.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Bridge.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CollisionMgr.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CreedWizard.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Critical.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Cursor.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Damage.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DarkCow.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DataSubject.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Effect.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBridge.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBuffer.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectFactory.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Equip.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Field.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame_Manager.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Func.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\House.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\HpBar.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Item.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NPC.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Portal.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Shop.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\SoundMgr.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Status.h" />
+    <ClInclude Include="Inven.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Jelly.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MonHpBar.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Monster.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MpBar.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NormEffect.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Observer.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RedWolf.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RenderMgr.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\ShakeMgr.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy2.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Store.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Subject.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Test.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tile.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer_Manager.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town2.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tree.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UIObserver.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UserInterface.h" />
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Weapon.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Client76.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MultiTexture.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="SingleTexture.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureMgr.h" />
+    <ClInclude Include="TimeMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client76.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client76.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\ReadMe.txt" />
+    <Text Include="중복.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

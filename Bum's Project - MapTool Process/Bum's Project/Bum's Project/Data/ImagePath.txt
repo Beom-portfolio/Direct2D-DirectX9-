@@ -1,0 +1,152 @@
+Stand|Down|5|..\Texture\Resorce\Player\Stand\Down\Maximin_Down_Stand%d.png
+Stand|LD|5|..\Texture\Resorce\Player\Stand\LD\Maximin_LD_Stand%d.png
+Stand|Left|5|..\Texture\Resorce\Player\Stand\Left\Maximin_Left_Stand%d.png
+Stand|LU|5|..\Texture\Resorce\Player\Stand\LU\Maximin_LU_Stand%d.png
+Stand|Up|5|..\Texture\Resorce\Player\Stand\Up\Maximin_Up_Stand%d.png
+Walk|Down|10|..\Texture\Resorce\Player\Walk\Down\Maximin_Down_Walk%d.png
+Walk|LD|10|..\Texture\Resorce\Player\Walk\LD\Maximin_LD_Walk%d.png
+Walk|Left|10|..\Texture\Resorce\Player\Walk\Left\Maximin_Left_Walk%d.png
+Walk|LU|10|..\Texture\Resorce\Player\Walk\LU\Maximin_LU_Walk%d.png
+Walk|Up|10|..\Texture\Resorce\Player\Walk\Up\Maximin_Up_Walk%d.png
+Run|Down|10|..\Texture\Resorce\Player\Run\Down\Maximin_Down_Run%d.png
+Run|LD|10|..\Texture\Resorce\Player\Run\LD\Maximin_LD_Run%d.png
+Run|Left|10|..\Texture\Resorce\Player\Run\Left\Maximin_Left_Run%d.png
+Run|LU|10|..\Texture\Resorce\Player\Run\LU\Maximin_LU_Run%d.png
+Run|Up|10|..\Texture\Resorce\Player\Run\Up\Maximin_Up_Run%d.png
+Object|Tree|50|..\Texture\Resorce\Object\Tree\Tree%d.png
+Resorce|Tile|5|..\Texture\Resorce\Tile\Tile%d.png
+Resorce|Target|4|..\Texture\Resorce\Target\Target%d.png
+Bash|Down|6|..\Texture\Resorce\Player\Bash\Down\Maximin_Down_Bash%d.png
+Bash|LD|6|..\Texture\Resorce\Player\Bash\LD\Maximin_LD_Bash%d.png
+Bash|Left|6|..\Texture\Resorce\Player\Bash\Left\Maximin_Left_Bash%d.png
+Bash|LU|6|..\Texture\Resorce\Player\Bash\LU\Maximin_LU_Bash%d.png
+Bash|Up|6|..\Texture\Resorce\Player\Bash\Up\Maximin_Up_Bash%d.png
+Slash|Down|5|..\Texture\Resorce\Player\Slash\Down\Maximin_Down_Slash%d.png
+Slash|LD|5|..\Texture\Resorce\Player\Slash\LD\Maximin_LD_Slash%d.png
+Slash|Left|5|..\Texture\Resorce\Player\Slash\Left\Maximin_Left_Slash%d.png
+Slash|LU|5|..\Texture\Resorce\Player\Slash\LU\Maximin_LU_Slash%d.png
+Slash|Up|5|..\Texture\Resorce\Player\Slash\Up\Maximin_Up_Slash%d.png
+SwordStand|Down|5|..\Texture\Resorce\Weapon\Sword\SwordStand\Down\Down_Stand%d.png
+SwordStand|LD|5|..\Texture\Resorce\Weapon\Sword\SwordStand\LD\LD_Stand%d.png
+SwordStand|Left|5|..\Texture\Resorce\Weapon\Sword\SwordStand\Left\Left_Stand%d.png
+SwordStand|LU|5|..\Texture\Resorce\Weapon\Sword\SwordStand\LU\LU_Stand%d.png
+SwordStand|Up|5|..\Texture\Resorce\Weapon\Sword\SwordStand\Up\Up_Stand%d.png
+SwordBash|Down|6|..\Texture\Resorce\Weapon\Sword\SwordBash\Down\Down_Bash%d.png
+SwordBash|LD|6|..\Texture\Resorce\Weapon\Sword\SwordBash\LD\LD_Bash%d.png
+SwordBash|Left|6|..\Texture\Resorce\Weapon\Sword\SwordBash\Left\Left_Bash%d.png
+SwordBash|LU|6|..\Texture\Resorce\Weapon\Sword\SwordBash\LU\LU_Bash%d.png
+SwordBash|Up|2|..\Texture\Resorce\Weapon\Sword\SwordBash\Up\Up_Bash%d.png
+SwordSlash|Down|5|..\Texture\Resorce\Weapon\Sword\SwordSlash\Down\Down_Slash%d.png
+SwordSlash|LD|5|..\Texture\Resorce\Weapon\Sword\SwordSlash\LD\LD_Slash%d.png
+SwordSlash|Left|5|..\Texture\Resorce\Weapon\Sword\SwordSlash\Left\Left_Slash%d.png
+SwordSlash|LU|5|..\Texture\Resorce\Weapon\Sword\SwordSlash\LU\LU_Slash%d.png
+SwordSlash|Up|5|..\Texture\Resorce\Weapon\Sword\SwordSlash\Up\Up_Slash%d.png
+Skill|Down|5|..\Texture\Resorce\Player\Skill\Down\Maximin_Down_Skill%d.png
+Skill|LD|5|..\Texture\Resorce\Player\Skill\LD\Maximin_LD_Skill%d.png
+Skill|Left|5|..\Texture\Resorce\Player\Skill\Left\Maximin_Left_Skill%d.png
+Skill|LU|5|..\Texture\Resorce\Player\Skill\LU\Maximin_LU_Skill%d.png
+Skill|Up|5|..\Texture\Resorce\Player\Skill\Up\Maximin_Up_Skill%d.png
+Player Skill|Cray|8|..\Texture\Resorce\Skill\Player Skill\Cray\Cray%d.png
+Player Skill|FireExplosion|9|..\Texture\Resorce\Skill\Player Skill\FireExplosion\FireExplosion%d.png
+Player Skill|Freeze|7|..\Texture\Resorce\Skill\Player Skill\Freeze\Freeze%d.png
+Player Skill|IceUp|20|..\Texture\Resorce\Skill\Player Skill\IceUp\%d.png
+Player Skill|PurPlePog|11|..\Texture\Resorce\Skill\Player Skill\PurPlePog\PurPlePog%d.png
+Player Skill|ThunderBolt|13|..\Texture\Resorce\Skill\Player Skill\ThunderBolt\ThunderBolt%d.png
+BashEffect|Down|3|..\Texture\Resorce\Skill\Player Skill\BashEffect\Down\Down_Bash%d.png
+BashEffect|Left|3|..\Texture\Resorce\Skill\Player Skill\BashEffect\Left\Left_Bash%d.png
+BashEffect|Up|3|..\Texture\Resorce\Skill\Player Skill\BashEffect\Up\Up_Bash%d.png
+B_STAND|LDOWN|6|..\Texture\Resorce\Monster\BlueWolf\B_STAND\LDOWN\Stand_LDown%d.png
+B_STAND|LUP|6|..\Texture\Resorce\Monster\BlueWolf\B_STAND\LUP\Stand_LUp%d.png
+B_WALK|LDOWN|6|..\Texture\Resorce\Monster\BlueWolf\B_WALK\LDOWN\Walk_LDown%d.png
+B_WALK|LUP|6|..\Texture\Resorce\Monster\BlueWolf\B_WALK\LUP\Walk_LUp%d.png
+B_ATTACK|LDOWN|8|..\Texture\Resorce\Monster\BlueWolf\B_ATTACK\LDOWN\Attack_LDown%d.png
+B_ATTACK|LUP|8|..\Texture\Resorce\Monster\BlueWolf\B_ATTACK\LUP\Attack_LUp%d.png
+B_DAMAGE|LDOWN|1|..\Texture\Resorce\Monster\BlueWolf\B_DAMAGE\LDOWN\Damage_LDown%d.png
+B_DAMAGE|LUP|1|..\Texture\Resorce\Monster\BlueWolf\B_DAMAGE\LUP\Damage_LUp%d.png
+Effect|TagetOn|8|..\Texture\Resorce\Effect\TagetOn\Taget%d.png
+Damage|Left|2|..\Texture\Resorce\Player\Damage\Left\Maximin_Left_Damage%d.png
+Damage|LU|2|..\Texture\Resorce\Player\Damage\LU\Maximin_LU_Damage%d.png
+Damage|Up|2|..\Texture\Resorce\Player\Damage\Up\Maximin_Up_Damage%d.png
+Damage|Down|2|..\Texture\Resorce\Player\Damage\Down\Maximin_Down_Damage%d.png
+Damage|LD|2|..\Texture\Resorce\Player\Damage\LD\Maximin_LD_Damage%d.png
+Collapse|LD|1|..\Texture\Resorce\Player\Collapse\LD\Maximin_LD_Collapse%d.png
+Collapse|Left|1|..\Texture\Resorce\Player\Collapse\Left\Maximin_Left_Collapse%d.png
+Collapse|LU|1|..\Texture\Resorce\Player\Collapse\LU\Maximin_LU_Collapse%d.png
+Collapse|Up|1|..\Texture\Resorce\Player\Collapse\Up\Maximin_Up_Collapse%d.png
+Collapse|Down|1|..\Texture\Resorce\Player\Collapse\Down\Maximin_Down_Collapse%d.png
+R_STAND|LDOWN|6|..\Texture\Resorce\Monster\RedWolf\R_STAND\LDOWN\Stand_LDown%d.png
+R_STAND|LUP|6|..\Texture\Resorce\Monster\RedWolf\R_STAND\LUP\Stand_LUp%d.png
+R_WALK|LDOWN|6|..\Texture\Resorce\Monster\RedWolf\R_WALK\LDOWN\Walk_LDown%d.png
+R_WALK|LUP|6|..\Texture\Resorce\Monster\RedWolf\R_WALK\LUP\Walk_LUp%d.png
+R_ATTACK|LDOWN|8|..\Texture\Resorce\Monster\RedWolf\R_ATTACK\LDOWN\Attack_LDown%d.png
+R_ATTACK|LUP|8|..\Texture\Resorce\Monster\RedWolf\R_ATTACK\LUP\Attack_LUp%d.png
+D_STAND|LDOWN|6|..\Texture\Resorce\Monster\DarkCow\D_STAND\LDOWN\Stand_LDown%d.png
+D_STAND|LUP|6|..\Texture\Resorce\Monster\DarkCow\D_STAND\LUP\Stand_LUp%d.png
+D_WALK|LDOWN|8|..\Texture\Resorce\Monster\DarkCow\D_WALK\LDOWN\Walk_LDown%d.png
+D_WALK|LUP|8|..\Texture\Resorce\Monster\DarkCow\D_WALK\LUP\Walk_LUp%d.png
+D_ATTACK|LDOWN|10|..\Texture\Resorce\Monster\DarkCow\D_ATTACK\LDOWN\Attack_LDown%d.png
+D_ATTACK|LUP|10|..\Texture\Resorce\Monster\DarkCow\D_ATTACK\LUP\Attack_LUp%d.png
+D_DAMAGE|LDOWN|1|..\Texture\Resorce\Monster\DarkCow\D_DAMAGE\LDOWN\Damage_LDown%d.png
+D_DAMAGE|LUP|1|..\Texture\Resorce\Monster\DarkCow\D_DAMAGE\LUP\Damage_LUp%d.png
+J_DIE|LDOWN|1|..\Texture\Resorce\Monster\Jelly\J_DIE\LDOWN\Die_LDown%d.png
+J_DIE|LUP|1|..\Texture\Resorce\Monster\Jelly\J_DIE\LUP\Die_LUp%d.png
+J_STAND|LDOWN|5|..\Texture\Resorce\Monster\Jelly\J_STAND\LDOWN\Stand_LDown%d.png
+J_STAND|LUP|5|..\Texture\Resorce\Monster\Jelly\J_STAND\LUP\Stand_LUp%d.png
+J_WALK|LDOWN|6|..\Texture\Resorce\Monster\Jelly\J_WALK\LDOWN\Walk_LDown%d.png
+J_WALK|LUP|6|..\Texture\Resorce\Monster\Jelly\J_WALK\LUP\Walk_LUp%d.png
+J_ATTACK|LDOWN|17|..\Texture\Resorce\Monster\Jelly\J_ATTACK\LDOWN\Attack_LDown%d.png
+J_ATTACK|LUP|17|..\Texture\Resorce\Monster\Jelly\J_ATTACK\LUP\Attack_LUp%d.png
+J_DAMAGE|LDOWN|3|..\Texture\Resorce\Monster\Jelly\J_DAMAGE\LDOWN\Damage_LDown%d.png
+J_DAMAGE|LUP|3|..\Texture\Resorce\Monster\Jelly\J_DAMAGE\LUP\Damage_LUp%d.png
+C_STAND|LDOWN|4|..\Texture\Resorce\Monster\CreedWizard\C_STAND\LDOWN\Stand_LDown%d.png
+C_STAND|LUP|4|..\Texture\Resorce\Monster\CreedWizard\C_STAND\LUP\Stand_LUp%d.png
+C_WALK|LDOWN|5|..\Texture\Resorce\Monster\CreedWizard\C_WALK\LDOWN\Walk_LDown%d.png
+C_WALK|LUP|5|..\Texture\Resorce\Monster\CreedWizard\C_WALK\LUP\Walk_LUp%d.png
+C_ATTACK|LDOWN|15|..\Texture\Resorce\Monster\CreedWizard\C_ATTACK\LDOWN\Attack_LDown%d.png
+C_ATTACK|LUP|15|..\Texture\Resorce\Monster\CreedWizard\C_ATTACK\LUP\Attack_LUp%d.png
+C_DEATH|LDOWN|15|..\Texture\Resorce\Monster\CreedWizard\C_DEATH\LDOWN\Death_LDown%d.png
+C_DEATH|LUP|12|..\Texture\Resorce\Monster\CreedWizard\C_DEATH\LUP\Death_LUp%d.png
+BB_THROW|Left|7|..\Texture\Resorce\Boss\BB_THROW\Left\Boss_Throw%d.png
+BB_WALK|Left|13|..\Texture\Resorce\Boss\BB_WALK\Left\Boss_Walk%d.png
+BB_DEATH|Left|3|..\Texture\Resorce\Boss\BB_DEATH\Left\Boss_Death%d.png
+BB_STAND|Left|1|..\Texture\Resorce\Boss\BB_STAND\Left\Boss_Stand%d.png
+BB_EGG|UP|1|..\Texture\Resorce\Boss\BB_EGG\UP\Boss_Egg%d.png
+Resorce|Target|4|..\Texture\Resorce\Target\Target%d.png
+Effect|MonsterHit|4|..\Texture\Resorce\Effect\MonsterHit\MonsterHit%d.png
+Effect|MagicHit|4|..\Texture\Resorce\Effect\MagicHit\MAgicHit%d.png
+Effect|Critical|1|..\Texture\Resorce\Effect\Critical\Critical%d.png
+Effect|Feel|2|..\Texture\Resorce\Effect\Feel\Feel%d.png
+Font|DmgFont|10|..\Texture\Resorce\Font\DmgFont\DmgFont%d.png
+Font|MagicDmgFont|10|..\Texture\Resorce\Font\MagicDmgFont\MagicDmgFont%d.png
+Font|PlayerDmgFont|10|..\Texture\Resorce\Font\PlayerDmgFont\PlayerDmgFont%d.png
+Boss - Middle|Crash|4|..\Texture\Resorce\Skill\Monster Skill\Boss - Middle\Crash\Crash%d.png
+Boss - Middle|Boom|11|..\Texture\Resorce\Skill\Monster Skill\Boss - Middle\Boom\Boom%d.png
+Resorce|WarpGate|24|..\Texture\Resorce\WarpGate\WarpGate%d.png
+Interface|BuyButton|2|..\Texture\Resorce\Interface\BuyButton\BuyButton%d.png
+Interface|InvenButton|2|..\Texture\Resorce\Interface\InvenButton\InvenButton%d.png
+Interface|CancelButton|2|..\Texture\Resorce\Interface\CancelButton\CancelButton%d.png
+Interface|OKButton|2|..\Texture\Resorce\Interface\OKButton\OKButton%d.png
+Interface|CloseButton|2|..\Texture\Resorce\Interface\CloseButton\CloseButton%d.png
+Interface|SellButton|2|..\Texture\Resorce\Interface\SellButton\SellButton%d.png
+MessageBox|Message|5|..\Texture\Resorce\MessageBox\Message\Message%d.png
+MessageBox|QuestMessage|4|..\Texture\Resorce\MessageBox\QuestMessage\Message%d.png
+Mouse|Gate|4|..\Texture\Resorce\Mouse\Gate\Gate%d.png
+Mouse|Magic|9|..\Texture\Resorce\Mouse\Magic\%d.png
+Mouse|NoPass|12|..\Texture\Resorce\Mouse\NoPass\NoPass_%d.png
+Mouse|Normal|13|..\Texture\Resorce\Mouse\Normal\Normal_%d.png
+Mouse|Pick|3|..\Texture\Resorce\Mouse\Pick\Pick%d.png
+Mouse|Battle|7|..\Texture\Resorce\Mouse\Battle\Battle_%d.png
+Mouse|Chat|2|..\Texture\Resorce\Mouse\Chat\Chat_%d.png
+Mouse|Click|2|..\Texture\Resorce\Mouse\Click\Click%d.png
+NPC|Quest|12|..\Texture\Resorce\NPC\Quest\Quest%d.png
+NPC|Kenishi|7|..\Texture\Resorce\NPC\Kenishi\Kenishi%d.png
+NPC|Linda|12|..\Texture\Resorce\NPC\Linda\Linda%d.png
+Player Skill|Crash|4|..\Texture\Resorce\Skill\Player Skill\Crash\Crash%d.png
+Player Skill|Boom|19|..\Texture\Resorce\Skill\Player Skill\Boom\Boom%d.png
+Effect|WaterJail|19|..\Texture\Resorce\Effect\WaterJail\BossSkill%d.png
+Effect|Hold|6|..\Texture\Resorce\Effect\Hold\Hold%d.png
+Monster Skill|EnergyBall|8|..\Texture\Resorce\Skill\Monster Skill\EnergyBall\EnergyBall%d.png
+Effect|LevelUp|30|..\Texture\Resorce\Effect\LevelUp\LevelUp%d.png
+Effect|LevelUpEffect|20|..\Texture\Resorce\Effect\LevelUpEffect\LevelUpEffect%d.png
+Effect|HpPotion|21|..\Texture\Resorce\Effect\HpPotion\HpPotion%d.png
+Effect|MpPotion|21|..\Texture\Resorce\Effect\MpPotion\MpPotion%d.png

@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{390c009a-f220-44ec-a53a-ae461b29505c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{6a6ea690-afa3-4aab-a8f0-dd94577f8040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.BackGround">
+      <UniqueIdentifier>{702bd168-7e00-48c4-a758-a2b5b24b5765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{ab88ec81-8d68-41a7-a41a-be2749cb3d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Logo">
+      <UniqueIdentifier>{14f26b6b-4f47-48e7-aae4-5d35b922f3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{d2de638b-adb8-4354-8940-ebe0e6f74801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="98.Manager">
+      <UniqueIdentifier>{434d580f-0597-470a-b703-072861d1ddef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Device">
+      <UniqueIdentifier>{ce43642c-0583-41f6-95e6-6be863d1a0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Texture">
+      <UniqueIdentifier>{c882fd44-7a47-4dc7-ae45-889d8fbe7130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Tile">
+      <UniqueIdentifier>{40c891c1-221f-486e-aff4-d5dacdbbe0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Field">
+      <UniqueIdentifier>{5e0bfd1b-65a5-4b26-ae10-9300ae5edfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Stage">
+      <UniqueIdentifier>{e5e25b39-72fa-4ddf-8546-fbc5db8a43a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.BossStage">
+      <UniqueIdentifier>{6fa36984-0340-4e65-91aa-d3333f1985d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\04.House">
+      <UniqueIdentifier>{83ba8794-3013-4b0c-b402-90816accbf81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.Smithy">
+      <UniqueIdentifier>{d59ede88-c9fd-46a7-a809-5d8960c755fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.Store">
+      <UniqueIdentifier>{9888f17a-b38f-4c13-ad97-a28cadba4047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.Smithy2">
+      <UniqueIdentifier>{ee7977eb-1416-4a18-a5a3-f348c33b788f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\08.Town">
+      <UniqueIdentifier>{319d08ce-38c6-4cd2-99ac-344e73f15cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\09.Town2">
+      <UniqueIdentifier>{b68ec63a-0c95-4936-865f-728a31449cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Player">
+      <UniqueIdentifier>{c85e2c96-8f40-4579-aaa3-d96f2b4fb7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\00.FactoryMgr">
+      <UniqueIdentifier>{c4e4f95e-5e73-4484-b170-1b6a9f5b730a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.MouseMgr">
+      <UniqueIdentifier>{b30cb047-3de6-46e1-b7da-5a7bfd9de1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\02.ObjMgr">
+      <UniqueIdentifier>{e6fddc56-77e6-45ee-8c7f-c7be315bffc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\03.SceneMgr">
+      <UniqueIdentifier>{58e75c80-7dd5-4663-9f98-85dd612f1356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\04.TextureMgr">
+      <UniqueIdentifier>{099bde5b-6242-4811-971d-a90f66cbe404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\05.TimeMgr">
+      <UniqueIdentifier>{412d9475-c5b7-449c-8551-b83aff42011f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\06.CollisionMgr">
+      <UniqueIdentifier>{8c322edf-e3ee-4518-9db4-a89e5912167a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\99.CollTest">
+      <UniqueIdentifier>{78f18d9b-5a3a-48f6-98d6-84b08febdd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Texture\00.MultiTexture">
+      <UniqueIdentifier>{e7d81885-b11d-4002-aa4d-8c3373afe697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Texture\01.SingleTexture">
+      <UniqueIdentifier>{c9d56c0f-4ceb-4d27-9774-87b50725db9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\07.AStar">
+      <UniqueIdentifier>{59dbeebb-5b5f-4458-a8db-123cbadb77ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Weapon">
+      <UniqueIdentifier>{236d9210-9c1e-4079-8b8f-d6d24fc46ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design">
+      <UniqueIdentifier>{8e2b29ac-b101-4b23-9a65-5be1dc5b8db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\01.Observer">
+      <UniqueIdentifier>{34a4456c-730f-4caa-abc3-9efcfd24e74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\01.Observer\00.Subject">
+      <UniqueIdentifier>{ae41794f-994f-4a0e-9391-c1d66d23b78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\08.EffectFactory">
+      <UniqueIdentifier>{dce05c1e-7b78-4bdb-8803-984d793cb3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Monster">
+      <UniqueIdentifier>{4bcad94e-e15b-4ce5-b8b8-b12559360a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Monster\00.BlueWolf">
+      <UniqueIdentifier>{34282e3c-93f3-47e8-8b51-d9df56901991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Monster\02.DarkCow">
+      <UniqueIdentifier>{1a934949-6e00-4cc8-ba53-2bd09d7015a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Monster\03.Jelly">
+      <UniqueIdentifier>{991f39ce-8850-4322-9492-4f37ebd811b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Monster\04.CreedWizard">
+      <UniqueIdentifier>{919874ae-705b-469d-9e33-ab8d7358e1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.Monster\01.RedWolf">
+      <UniqueIdentifier>{d89959b3-7e06-4b56-bc15-60c48eb90598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Design\00.Bridge%28Effect%29">
+      <UniqueIdentifier>{97052810-2726-473c-b996-47d64c4aafc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\09.DamageMgr">
+      <UniqueIdentifier>{d896c740-3019-4862-bb47-ef96e02ad97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\10.RenderMgr">
+      <UniqueIdentifier>{e2a179fd-6c3f-42f6-9e36-852547f4c2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\07.Boss">
+      <UniqueIdentifier>{d405e033-16e9-4884-8bf2-7870eaec3c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\11.ShakeMgr">
+      <UniqueIdentifier>{bb8bebdd-c62b-4413-8820-f05fcc30cefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\07.Boss\00.BossBullet">
+      <UniqueIdentifier>{15f002ba-bbfc-4dc0-bbda-10b892cff3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface">
+      <UniqueIdentifier>{ef3e8a46-71fe-485b-b225-6de5309cba44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Object">
+      <UniqueIdentifier>{a46f7e5f-0312-4a04-b031-05db5f9cb34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Object\00.Tree">
+      <UniqueIdentifier>{a010e900-1cb4-4ea0-b210-c66488f93e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility">
+      <UniqueIdentifier>{5137aac4-aec0-4ad2-8bc4-f89f7066f7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Effect">
+      <UniqueIdentifier>{e34f1a8d-a5c6-447a-bc19-2dbd9ccbd893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Effect\BridgeEffect">
+      <UniqueIdentifier>{b2fb683f-5e8c-47b2-8ccf-7c9d672b5204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Effect\NormEffect">
+      <UniqueIdentifier>{905ce23e-8ff1-4b21-a093-207e322caedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Effect\NormEffect\00.DmgEffect">
+      <UniqueIdentifier>{35640e74-8434-4267-9809-0d7e229e1e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.Effect\NormEffect\01.Critical">
+      <UniqueIdentifier>{c056af6d-14c0-427f-a793-84ea4f170bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\For.Frame">
+      <UniqueIdentifier>{efaf3556-af5d-41c8-bc62-0a2e1ba95d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\For.Timer">
+      <UniqueIdentifier>{a966f2d7-ca1d-4d7e-a05c-c4129f1d73cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\For.Timer\Manager">
+      <UniqueIdentifier>{8d23d4a7-48e5-4c8a-8631-f5dffc3986b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\For.Timer\Timer">
+      <UniqueIdentifier>{35c57647-f863-478d-aae4-dfc51efc7714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\For.Frame\Manager">
+      <UniqueIdentifier>{52bf24c2-47ad-40a6-8c17-bc71a3b2a2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.Utility\For.Frame\Frame">
+      <UniqueIdentifier>{b4521aaf-75b7-4d03-aea3-b25f638deab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Observer">
+      <UniqueIdentifier>{a3084d2f-a423-45c7-886c-3dd2e79d238e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Observer\00.Player">
+      <UniqueIdentifier>{b6bca24e-4110-43f8-9176-4720c6f4800a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Observer\00.Player\01.MpBar">
+      <UniqueIdentifier>{ea78a032-7e8e-449b-8c94-7b959617cf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Observer\00.Player\00.HpBar">
+      <UniqueIdentifier>{ae477e91-fa6c-4dd5-a7a6-1183d6b0bbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Single">
+      <UniqueIdentifier>{18bac255-cd52-4a6e-be7d-8da602f25789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Single\02. Font">
+      <UniqueIdentifier>{04173d24-16aa-4a29-97ef-ab30307a3392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Single\02. Font\00.Damage">
+      <UniqueIdentifier>{510214ba-e020-4bf1-98e2-12db838ecc5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Single\01.Monster">
+      <UniqueIdentifier>{7ed57e98-4530-4dd0-80ae-c31d0e483344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\Single\01.Monster\00.MonHpBar">
+      <UniqueIdentifier>{13c7a65b-53c7-4006-8aea-9cca48694fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\00.Inven">
+      <UniqueIdentifier>{1aaddde0-4bc5-4b24-9a07-44c56655aee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\01.Chat">
+      <UniqueIdentifier>{4f619cae-0837-4d0a-9981-c79dd42c518f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\09.Item">
+      <UniqueIdentifier>{8a0f0a80-8792-4736-aa18-cfa523fd9e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\02.Shop">
+      <UniqueIdentifier>{24120f81-fed1-4aa0-9517-b6d5da989245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\10.NPC">
+      <UniqueIdentifier>{641b8b30-cb8b-450b-a131-ed4a7c2a090a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\98.Cursor">
+      <UniqueIdentifier>{7e7e674e-4aba-463c-b8d0-1ed08884bedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\03.Equip">
+      <UniqueIdentifier>{6226f140-f1bd-4abd-84cc-302f70683cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\11.Portal">
+      <UniqueIdentifier>{dce3b94e-41d9-41f2-8a49-857f5630cacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\12.SoundMgr">
+      <UniqueIdentifier>{31252452-5ae4-44ea-a7f1-94168fe9fe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\08.UserInterface\04.Status">
+      <UniqueIdentifier>{bf2e44c9-e821-4471-85d1-34183827fbb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>01.GameObject\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Client76.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>97.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>96.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tile.cpp">
+      <Filter>01.GameObject\01.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Field.cpp">
+      <Filter>02.Scene\01.Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossStage.cpp">
+      <Filter>02.Scene\03.BossStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\House.cpp">
+      <Filter>02.Scene\04.House</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy2.cpp">
+      <Filter>02.Scene\06.Smithy2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town.cpp">
+      <Filter>02.Scene\08.Town</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town2.cpp">
+      <Filter>02.Scene\09.Town2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Store.cpp">
+      <Filter>02.Scene\07.Store</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy.cpp">
+      <Filter>02.Scene\05.Smithy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tree.cpp">
+      <Filter>01.GameObject\02.Object\00.Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>98.Manager\00.FactoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>98.Manager\01.MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>98.Manager\02.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98.Manager\03.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Manager\04.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98.Manager\05.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CollisionMgr.cpp">
+      <Filter>98.Manager\06.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Test.cpp">
+      <Filter>01.GameObject\99.CollTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>96.Texture\00.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>96.Texture\01.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\AStar.cpp">
+      <Filter>98.Manager\07.AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Weapon.cpp">
+      <Filter>01.GameObject\04.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Bridge.cpp">
+      <Filter>95.Design\00.Bridge%28Effect%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Observer.cpp">
+      <Filter>95.Design\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBridge.cpp">
+      <Filter>95.Design\00.Bridge%28Effect%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBuffer.cpp">
+      <Filter>95.Design\00.Bridge%28Effect%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectFactory.cpp">
+      <Filter>98.Manager\08.EffectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Monster.cpp">
+      <Filter>01.GameObject\06.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BlueWolf.cpp">
+      <Filter>01.GameObject\06.Monster\00.BlueWolf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RedWolf.cpp">
+      <Filter>01.GameObject\06.Monster\01.RedWolf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DarkCow.cpp">
+      <Filter>01.GameObject\06.Monster\02.DarkCow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Jelly.cpp">
+      <Filter>01.GameObject\06.Monster\03.Jelly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CreedWizard.cpp">
+      <Filter>01.GameObject\06.Monster\04.CreedWizard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RenderMgr.cpp">
+      <Filter>98.Manager\10.RenderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Boss.cpp">
+      <Filter>01.GameObject\07.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\ShakeMgr.cpp">
+      <Filter>98.Manager\11.ShakeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossBullet.cpp">
+      <Filter>01.GameObject\07.Boss\00.BossBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Subject.cpp">
+      <Filter>95.Design\01.Observer\00.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DataSubject.cpp">
+      <Filter>95.Design\01.Observer\00.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UIObserver.cpp">
+      <Filter>95.Design\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UserInterface.cpp">
+      <Filter>01.GameObject\08.UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\HpBar.cpp">
+      <Filter>01.GameObject\08.UserInterface\Observer\00.Player\00.HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MpBar.cpp">
+      <Filter>01.GameObject\08.UserInterface\Observer\00.Player\01.MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MonHpBar.cpp">
+      <Filter>01.GameObject\08.UserInterface\Single\01.Monster\00.MonHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Damage.cpp">
+      <Filter>01.GameObject\08.UserInterface\Single\02. Font\00.Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Effect.cpp">
+      <Filter>01.GameObject\05.Effect\BridgeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NormEffect.cpp">
+      <Filter>01.GameObject\05.Effect\NormEffect\00.DmgEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Critical.cpp">
+      <Filter>01.GameObject\05.Effect\NormEffect\01.Critical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer.cpp">
+      <Filter>94.Utility\For.Timer\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer_Manager.cpp">
+      <Filter>94.Utility\For.Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame.cpp">
+      <Filter>94.Utility\For.Frame\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame_Manager.cpp">
+      <Filter>94.Utility\For.Frame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Item.cpp">
+      <Filter>01.GameObject\09.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inven.cpp">
+      <Filter>01.GameObject\08.UserInterface\00.Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Shop.cpp">
+      <Filter>01.GameObject\08.UserInterface\02.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NPC.cpp">
+      <Filter>01.GameObject\10.NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Cursor.cpp">
+      <Filter>01.GameObject\98.Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Equip.cpp">
+      <Filter>01.GameObject\08.UserInterface\03.Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Portal.cpp">
+      <Filter>01.GameObject\11.Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\SoundMgr.cpp">
+      <Filter>98.Manager\12.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Status.cpp">
+      <Filter>01.GameObject\08.UserInterface\04.Status</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>01.GameObject\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Client76.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>97.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>96.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tile.h">
+      <Filter>01.GameObject\01.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Field.h">
+      <Filter>02.Scene\01.Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossStage.h">
+      <Filter>02.Scene\03.BossStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\House.h">
+      <Filter>02.Scene\04.House</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy2.h">
+      <Filter>02.Scene\06.Smithy2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town.h">
+      <Filter>02.Scene\08.Town</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Town2.h">
+      <Filter>02.Scene\09.Town2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Store.h">
+      <Filter>02.Scene\07.Store</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Smithy.h">
+      <Filter>02.Scene\05.Smithy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Tree.h">
+      <Filter>01.GameObject\02.Object\00.Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>98.Manager\01.MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>98.Manager\00.FactoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98.Manager\03.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Manager\04.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98.Manager\05.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>98.Manager\02.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CollisionMgr.h">
+      <Filter>98.Manager\06.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Test.h">
+      <Filter>01.GameObject\99.CollTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>96.Texture\00.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>96.Texture\01.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\AStar.h">
+      <Filter>98.Manager\07.AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Weapon.h">
+      <Filter>01.GameObject\04.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Bridge.h">
+      <Filter>95.Design\00.Bridge%28Effect%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Observer.h">
+      <Filter>95.Design\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBridge.h">
+      <Filter>95.Design\00.Bridge%28Effect%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectBuffer.h">
+      <Filter>95.Design\00.Bridge%28Effect%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\EffectFactory.h">
+      <Filter>98.Manager\08.EffectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Monster.h">
+      <Filter>01.GameObject\06.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BlueWolf.h">
+      <Filter>01.GameObject\06.Monster\00.BlueWolf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RedWolf.h">
+      <Filter>01.GameObject\06.Monster\01.RedWolf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DarkCow.h">
+      <Filter>01.GameObject\06.Monster\02.DarkCow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Jelly.h">
+      <Filter>01.GameObject\06.Monster\03.Jelly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\CreedWizard.h">
+      <Filter>01.GameObject\06.Monster\04.CreedWizard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\RenderMgr.h">
+      <Filter>98.Manager\10.RenderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Boss.h">
+      <Filter>01.GameObject\07.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\ShakeMgr.h">
+      <Filter>98.Manager\11.ShakeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\BossBullet.h">
+      <Filter>01.GameObject\07.Boss\00.BossBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Subject.h">
+      <Filter>95.Design\01.Observer\00.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\DataSubject.h">
+      <Filter>95.Design\01.Observer\00.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UIObserver.h">
+      <Filter>95.Design\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\UserInterface.h">
+      <Filter>01.GameObject\08.UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\HpBar.h">
+      <Filter>01.GameObject\08.UserInterface\Observer\00.Player\00.HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MpBar.h">
+      <Filter>01.GameObject\08.UserInterface\Observer\00.Player\01.MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\MonHpBar.h">
+      <Filter>01.GameObject\08.UserInterface\Single\01.Monster\00.MonHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Damage.h">
+      <Filter>01.GameObject\08.UserInterface\Single\02. Font\00.Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Effect.h">
+      <Filter>01.GameObject\05.Effect\BridgeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NormEffect.h">
+      <Filter>01.GameObject\05.Effect\NormEffect\00.DmgEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Critical.h">
+      <Filter>01.GameObject\05.Effect\NormEffect\01.Critical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer.h">
+      <Filter>94.Utility\For.Timer\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Timer_Manager.h">
+      <Filter>94.Utility\For.Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame.h">
+      <Filter>94.Utility\For.Frame\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Frame_Manager.h">
+      <Filter>94.Utility\For.Frame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Item.h">
+      <Filter>01.GameObject\09.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inven.h">
+      <Filter>01.GameObject\08.UserInterface\00.Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Shop.h">
+      <Filter>01.GameObject\08.UserInterface\02.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\NPC.h">
+      <Filter>01.GameObject\10.NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Cursor.h">
+      <Filter>01.GameObject\98.Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Equip.h">
+      <Filter>01.GameObject\08.UserInterface\03.Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Portal.h">
+      <Filter>01.GameObject\11.Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\SoundMgr.h">
+      <Filter>98.Manager\12.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Func.h">
+      <Filter>98.Manager\12.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\Status.h">
+      <Filter>01.GameObject\08.UserInterface\04.Status</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client76.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client76.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Bum%27s Project - MapTool Process\Bum%27s Project\Bum%27s Project\Client76\ReadMe.txt" />
+    <Text Include="중복.txt">
+      <Filter>01.GameObject\01.Tile</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
