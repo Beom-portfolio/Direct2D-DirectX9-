@@ -113,7 +113,7 @@ void CDevice::SerParameters(D3DPRESENT_PARAMETERS& d3dp)
 {
 	d3dp.BackBufferWidth  = WINCX;			//백버퍼의 가로 크기
 	d3dp.BackBufferHeight = WINCY;			//백버퍼의 세로 크기
-	d3dp.BackBufferCount  = 1;				//백버퍼의 개수.
+	d3dp.BackBufferCount  = 2;				//백버퍼의 개수.
 	d3dp.BackBufferFormat = D3DFMT_A8R8G8B8;		
 	//백버퍼는 픽셀단위로 이루어져 있다.
 	//32비트를 사용하게 되는데 32비트를 어떻게? 사용하겠느냐?
@@ -146,7 +146,7 @@ void CDevice::SerParameters(D3DPRESENT_PARAMETERS& d3dp)
 	//"스왑체인"
 
 	d3dp.hDeviceWindow = g_hWnd;		//윈도우 핸들
-	d3dp.Windowed	   = FALSE;			//전체화면:FALSE / 창모드:TRUE
+	d3dp.Windowed	   = TRUE;			//전체화면:FALSE / 창모드:TRUE
 
 
 	d3dp.EnableAutoDepthStencil = TRUE;

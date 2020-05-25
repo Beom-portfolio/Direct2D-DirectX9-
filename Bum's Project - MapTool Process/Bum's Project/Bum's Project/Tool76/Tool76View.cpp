@@ -80,22 +80,25 @@ void CTool76View::OnDraw(CDC* pDC)
 	if (!pDoc)
 		return;
 
-	SetXYCount(m_pTile->GetXYCount());
+	if(m_pTile)
+		SetXYCount(m_pTile->GetXYCount());
 
 	SetScrollSizes(MM_TEXT, CSize(TILECX * m_xyCount.iXCount, (TILECY / 2) * m_xyCount.iYCount));
 
-	CDevice::GetInstance()->Render_Begin();
+	if (CDevice::GetInstance()->GetDevice())
+	{
+		CDevice::GetInstance()->Render_Begin();
 
-	m_pBackGround->Render();
+		m_pBackGround->Render();
 
-	m_pToolObject->Render();
+		m_pToolObject->Render();
 
-	m_pMonster->Render();
+		m_pMonster->Render();
 
-	m_pTile->Render();
+		m_pTile->Render();
 
-	CDevice::GetInstance()->Render_End();
-
+		CDevice::GetInstance()->Render_End();
+	}
 }
 
 

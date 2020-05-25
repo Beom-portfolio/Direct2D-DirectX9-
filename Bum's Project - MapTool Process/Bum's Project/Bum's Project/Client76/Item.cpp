@@ -150,12 +150,10 @@ int CItem::RUpdate(float vPosX, float vPosY)
 
 	m_fTime += GET_TIME;
 
-
 	if (m_bRClickCheck == true)
 		return 1;
 	else
 		return 0;
-
 }
 
 

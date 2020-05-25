@@ -77,6 +77,7 @@ int CShop::Update(void)
 	//
 	for (size_t i = 0; i < m_vecItem.size(); ++i)
 	{
+		m_vecItem[i]->Update(D3DXVECTOR3(m_tInfo.vPos.x - 5.f, m_tInfo.vPos.y, 0.f));
 		if (m_vecItem[i]->RUpdate(m_tInfo.vPos.x - 5.f, m_tInfo.vPos.y) == 1)
 		{
 			if (m_iBuyListCnt < 5)
@@ -95,6 +96,7 @@ int CShop::Update(void)
 
 	for (size_t i = 0; i < m_vecBuyList.size(); ++i)
 	{
+		m_vecBuyList[i]->Update(D3DXVECTOR3(m_tInfo.vPos.x - 5.f, m_tInfo.vPos.y + 180.f, 0.f));
 		m_vecBuyList[i]->RUpdate(m_tInfo.vPos.x - 5.f, m_tInfo.vPos.y + 180.f);
 	}
 
@@ -256,8 +258,6 @@ void CShop::Render(void)
 	);
 
 
-
-	
 	//АЁАн
 	TCHAR szTotalPrice[MIDDLE_STR] = L"";
 
@@ -265,8 +265,6 @@ void CShop::Render(void)
 
 
 	CDevice::GetInstance()->GetSprite()->SetTransform(&m_tTotalInfo.matWorld);
-
-
 	CDevice::GetInstance()->GetFont()->DrawTextW(
 		CDevice::GetInstance()->GetSprite(),
 		szTotalPrice,
